@@ -1,0 +1,32 @@
+INSTALLATION
+
+# 1) Clone the repository: 
+
+# git clone https://github.com/CyberPhvntom/clipsync.git
+# cd clipsync
+
+# 2) Install dependencies:
+# pip install -r requirements.txt
+--------------------------------------------------------------------------------
+CONFIGURATION:
+
+TARGET_WINDOW_TITLE = "Your Window Title Here"
+time.sleep(1.5) # Change this value
+
+# By default, ClipSync looks for a window titled "Claude". This is just a placeholder.
+ You are free to use whatever AI you prefer. In fact, it does not have to be AI, at all!
+ You can use ClipSync to automatically paste what you copy into a .doc file, notepad, etc!
+ Simply change the Target Window Title to your desired window. 
+
+
+The time.sleep parameter adjust the polling interval. ClipSync defaults to 1.5 seconds. 
+This is how frequent (in seconds), the clipboard is monitored for content change.
+A lower number results in a faster check, but is more resource-intensive. 
+
+
+
+USAGE
+
+# Open your favorite AI chat window. For example, Claude.
+# Run the script: python clipsync.py
+# Copy any text - it will automatically be sent to Claude. 
